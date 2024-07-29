@@ -1,7 +1,7 @@
 import factorial from '../src/factorial'; /// ARRANGE
 describe ('Test of factorial function', () => {
-    it('imported without errors', ('function') => {
-        expect(typeof factorial).toBe();
+    it('imported without errors', () => {
+        expect(typeof factorial).toBe('function');
     });
     it ('factorial(0) is 1', () => {
         const result = factorial(0); /// ACT
